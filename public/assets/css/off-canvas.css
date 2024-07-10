@@ -1,0 +1,316 @@
+.tpoffcanvas__logo img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.tpoffcanvas {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 690px;
+  height: 100vh;
+  box-shadow: 0 16px -32px 0 rgba(0, 0, 0, .8);
+  background-color: black;
+  z-index: 9999;
+  transition: 1s;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scrollbar-width: none;
+}
+.tpoffcanvas::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 767px) {
+  .tpoffcanvas {
+    width: 330px;
+    padding: 30px;
+ }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .tpoffcanvas {
+    width: 400px;
+    padding: 40px;
+ }
+}
+.tpoffcanvas.opened {
+  right: 0;
+}
+.tpoffcanvas__logo {
+  margin-bottom: 60px;
+}
+.tpoffcanvas__logo img {
+  width: 100px;
+  height: 100%;
+}
+.tpoffcanvas__close-btn {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  right: 95px;
+  top: 110px;
+  transition: 0.3s;
+}
+@media (max-width: 767px) {
+  .tpoffcanvas__close-btn {
+    font-size: 28px;
+    right: 20px;
+    top: 44px;
+ }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .tpoffcanvas__close-btn {
+    right: 36px;
+    top: 52px;
+ }
+}
+.tpoffcanvas__close-btn:hover {
+  color: red;
+  transform: rotate(10deg);
+}
+.tpoffcanvas__content p {
+  font-size: 26px;
+  color: white;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 0;
+  padding-bottom: 55px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .tpoffcanvas__content p br {
+    display: none;
+ }
+}
+.tpoffcanvas__contact {
+  clear: both;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .tpoffcanvas__contact {
+    margin-top: 60px;
+ }
+}
+.tpoffcanvas__contact span {
+  font-size: 14px;
+  color: #888;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.tpoffcanvas__contact ul {
+  margin-bottom: 60px;
+}
+.tpoffcanvas__contact ul li {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 27px;
+  position: relative;
+  padding-left: 40px;
+}
+@media (max-width: 767px) {
+  .tpoffcanvas__contact ul li {
+    font-size: 16px;
+    padding-left: 30px;
+ }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .tpoffcanvas__contact ul li {
+    font-size: 18px;
+ }
+}
+.tpoffcanvas__contact ul li:last-child {
+  margin-bottom: 0;
+}
+.tpoffcanvas__contact ul li i {
+  color: #292930;
+  font-size: 22px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+@media (max-width: 767px) {
+  .tpoffcanvas__contact ul li i {
+    font-size: 16px;
+ }
+}
+.tpoffcanvas__contact ul li:hover {
+  color: #292930;
+}
+.tpoffcanvas__input {
+  margin-bottom: 65px;
+}
+.tpoffcanvas__input p {
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.tpoffcanvas__input input {
+  background: rgba(118, 118, 130, .3);
+  border: transparent;
+  height: 60px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 80px;
+  border-radius: 10px;
+  color: white;
+}
+.tpoffcanvas__input input::placeholder {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+.tpoffcanvas__input button {
+  height: 60px;
+  width: 60px;
+  background-color: #5956E9;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+}
+.tpoffcanvas__instagram img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+.tpoffcanvas__instagram P {
+  font-size: 14px;
+  color: #888;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+.tpoffcanvas__instagram a {
+  margin-right: 10px;
+}
+
+.nav-container button.navbar-toggler{
+  border: none;
+}
+/* --- mobile menu css start */
+.mm-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mm-menu ul li {
+  display: block;
+}
+.mm-menu ul li:hover > a, .mm-menu ul li:hover button {
+  padding-left: 3px;
+  color: #2b4eff;
+}
+.mm-menu ul li a, .mm-menu ul li button {
+  padding: 12px 0;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  transition: 0.3s;
+}
+.mm-menu ul li a.active, .mm-menu ul li button.active {
+  padding-left: 3px;
+  color: #2b4eff;
+}
+.mm-menu ul li.has-droupdown > a::after, .mm-menu ul li.has-droupdown button::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-width: 2px 0 0 2px;
+  border-style: solid;
+  border-color: initial;
+  right: 0px;
+  top: 50%;
+  -webkit-transform: rotate(-45deg) translateY(-50%);
+  transform: rotate(-45deg) translateY(-50%);
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  transition: all 0.3s ease-out;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu {
+  padding-left: 0;
+  list-style: none;
+  height: 0;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu.active {
+  height: 100%;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu li {
+  padding-left: 15px;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu li:hover > a {
+  padding: 0 0 0 18px;
+  color: #2b4eff;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu li:hover > a:before {
+  background: #2b4eff;
+  border-color: #2b4eff;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu li a {
+  position: relative;
+  padding: 0 0 0 15px;
+  text-transform: capitalize;
+  font-size: 13px;
+  height: 0;
+  line-height: 46px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.mm-menu ul li.has-droupdown ul.sub-menu li a:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #6d8397;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.mm-menu ul li.has-droupdown.active > a {
+  color: #2b4eff;
+}
+.mm-menu ul li.has-droupdown.active > a:after {
+  -webkit-transform: rotate(-135deg) translateY(-50%);
+  transform: rotate(-135deg) translateY(-50%);
+}
+.mm-menu ul li.has-droupdown.active ul.sub-menu.active li a {
+  height: 46px;
+  visibility: visible;
+  opacity: 1;
+}
+.mm-menu ul li.has-droupdown.active ul.sub-menu.active li a:before {
+  visibility: visible;
+  opacity: 1;
+}
+.body-overlay.apply {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  z-index: 999;
+  transition: 0.3s;
+}
+/* --- mobile menu css end */
