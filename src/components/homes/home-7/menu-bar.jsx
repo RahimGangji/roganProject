@@ -31,7 +31,7 @@ const MenuBar = ({ setIsSidebarOpen, home_7 = false }) => {
                                 <Link href={"/"}>
                                     <a>
                                         <img
-                                            src="/assets/images/logo/logo5.svg"
+                                            src="/assets/images/logo/logo.svg"
                                             alt=""
                                         />
                                     </a>

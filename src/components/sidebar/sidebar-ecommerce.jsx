@@ -20,7 +20,7 @@ const SidebarCommerce = ({ home_9, setIsSidebarOpen, isSidebarOpen }) => {
                         >
                             <img src="/assets/images/icon/icon43.svg" alt="" />
                         </button>
-                        <img src="/assets/images/logo/logo5.svg" alt="" />
+                        {/* <img src="/assets/images/logo/logo.svg" alt="" /> */}
                     </div>
 
                     <div className="main-menu-list">

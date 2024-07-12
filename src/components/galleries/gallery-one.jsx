@@ -11,7 +11,7 @@ const contents = {
             Recent work.
         </>
     ),
-    bottom_title: "Our Gallery",
+    bottom_title: "Our Projects",
     gallery_items: [
         "/assets/images/portfolio/matzoball.png",
         "/assets/images/portfolio/project06.jpg",
@@ -61,7 +61,7 @@ const GalleryOne = () => {
                 </div>
                 <div className="main-wrapper">
                     <Link href="/project-full-width">
-                        <a className="view-gallery">View Gallery</a>
+                        <a className="view-gallery">View Projects</a>
                     </Link>
                     <Swiper
                         className="gallery-slider lightgallery"
