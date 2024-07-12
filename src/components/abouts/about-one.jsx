@@ -3,13 +3,14 @@ import React from "react";
 
 const contents = {
     upper_title: "About us",
-    main_title: "Leading Digital Agency for Business Solution.",
+    main_title: "DEVELOP RESULTS-DRIVEN PRODUCTS ",
+
     text: "Lorem ipsum dolor sit amet, hendrerit omittantur mel, es vidit animal iracundia. Ius te altera essent incorrupte. Id alien accu consetetur eam, nibh aliquam iracundia.",
     quote_text:
         "Lorem ipsum dolor sit amet, hendrerit omittantur mel et, est ut vidit animal iracundia luis.",
-    author_name: "Salim Rana",
-    author_title: "CEO ThemePure",
-    signature: "/assets/images/shape/signature.png",
+    author_name: "John Doe",
+    author_title: "CEO floqode",
+    signature: "/assets/images/shape/signature1.png",
     img_box: "/assets/images/team/member1.jpg",
     btn_text: "Learn More",
 };

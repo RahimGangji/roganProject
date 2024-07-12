@@ -27,15 +27,16 @@ const contents = {
     ),
     title: (
         <>
-            Digital Agencys <br />
-            with Excellence <br />
+            Modernizing <br />
+            Mobile Platforms <br />
             Services.
         </>
     ),
     subtitle: (
         <>
-            The 3 golden rules professional graphic designer don’t <br /> want
-            you to know about.
+            Lorem Ipsum is simply dummy text of the printing and
+            <br />
+            typesetting industry.
         </>
     ),
     btn_text: "More About us",
@@ -121,7 +122,7 @@ const BannerOne = () => {
 
                             <li>
                                 <button
-                                    onClick={() => setIsVideoOpen(true)}
+                                    // onClick={() => setIsVideoOpen(true)}
                                     className="fancybox video-button-one wow fadeInRight animated"
                                     data-wow-delay="1.5s"
                                 >
