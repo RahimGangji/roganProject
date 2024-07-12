@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118" height="118">
-	<defs>
-		<clipPath id="clip_0">
-			<rect y="1" width="1700" height="8880" clip-rule="evenodd"/>
-		</clipPath>
-		<linearGradient id="gradient_0" gradientUnits="userSpaceOnUse" x1="109.9624" y1="118" x2="8.5177402" y2="0">
-			<stop offset="0" stop-color="rgb(242,77,148)"/>
-			<stop offset="1" stop-color="rgb(255,58,70)"/>
-		</linearGradient>
-	</defs>
-	<g clip-path="url(#clip_0)">
-		<path fill="url(#gradient_0)" stroke="none" d="M0 0L118 0L118 118L0 118L0 0Z"/>
-	</g>
-	<defs>
-		<clipPath id="clip_1">
-			<rect y="1" width="1700" height="8880" clip-rule="evenodd"/>
-		</clipPath>
-	</defs>
-	<g clip-path="url(#clip_1)">
-		<text fill="rgb(255,255,255)" stroke="none" transform="translate(44 28)" font-size="48" font-family="Segoe UI" x="0" y="48.804688">
-				R
-		</text>
-	</g>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="118">
+  <defs>
+    <clipPath id="clip_0">
+      <rect y="1" width="1700" height="8880" clip-rule="evenodd"/>
+    </clipPath>
+    <linearGradient id="gradient_0" gradientUnits="userSpaceOnUse" x1="109.9624" y1="118" x2="8.5177402" y2="0">
+      <stop offset="0" stop-color="rgb(242,77,148)"/>
+      <stop offset="1" stop-color="rgb(255,58,70)"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#clip_0)">
+    <path fill="url(#gradient_0)" stroke="none" d="M0 0L118 0L118 118L0 118L0 0Z"/>
+  </g>
+  <defs>
+    <clipPath id="clip_1">
+      <rect y="1" width="1700" height="8880" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip_1)" transform="translate(35 40) scale(0.07, 0.07)">
+    <path d="M336.059 154.788V161.132H436.871V203.998H336.059V563.596H293.975V203.998H221.729V161.132H293.975V154.788C293.991 49.21 343.998 0 436.871 0V42.0684C367.814 42.0684 336.059 72.2451 336.059 154.788Z" fill="black"/>
+    <path d="M334.53 277.024V739.809H299.489V549.395C271.72 592.374 225.439 620.794 167.265 620.794C70.7322 620.794 0 541.472 0 444.939C0 348.407 70.7322 269.085 167.265 269.085C225.439 269.085 271.72 296.854 299.489 340.484V277.007H334.53V277.024ZM299.489 444.956C299.489 367.602 244.618 304.126 167.265 304.126C89.9119 304.126 35.6915 367.602 35.6915 444.956C35.6915 522.309 89.9119 585.119 167.265 585.119C244.618 585.119 299.489 522.309 299.489 444.956Z" fill="black"/>
+  </g>
 </svg>
