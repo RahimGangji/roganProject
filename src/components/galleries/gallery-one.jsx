@@ -11,7 +11,7 @@ const contents = {
             Recent work.
         </>
     ),
-    bottom_title: "Click the below button to check all of our work.",
+    bottom_title: "Our Gallery",
     gallery_items: [
         "/assets/images/portfolio/matzoball.png",
         "/assets/images/portfolio/project06.jpg",
@@ -54,9 +54,9 @@ const GalleryOne = () => {
                     className="shape-three"
                 />
                 <div className="container">
-                    <div className="theme-title-one">
+                    <div className="theme-title-one text-center  mb-3">
+                        <p className="upper-title">{bottom_title}</p>
                         <h2 className="main-title">{main_title}</h2>
-                        <p className="bottom-title">{bottom_title}</p>
                     </div>
                 </div>
                 <div className="main-wrapper">
